@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/profilec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Profile" />
+
+        <Button
+            android:id="@+id/goalc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Goals" />
+
+        <Button
+            android:id="@+id/calendarc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Calendar" />
+
+        <Button
+            android:id="@+id/explorec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Explore" />
+    </LinearLayout>
+
+     <Button
+         android:id="@+id/button6"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/TextView01"
+         android:layout_alignBottom="@+id/TextView01"
+         android:layout_alignRight="@+id/button5"
+         android:text="Details" />
+
+     <TextView
+         android:id="@+id/TextView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/textView2"
+         android:layout_marginLeft="45dp"
+         android:layout_marginTop="66dp"
+         android:text="Zumba Class"
+         android:textSize="40sp" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/TextView01"
+         android:layout_below="@+id/datePicker1"
+         android:layout_marginTop="249dp"
+         android:text="Inter Hall BasketBall "
+         android:textSize="40sp" />
+
+     <TextView
+         android:id="@+id/TextView02"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/button5"
+         android:layout_alignLeft="@+id/textView2"
+         android:layout_marginBottom="45dp"
+         android:text="EVENTS"
+         android:textSize="40sp" />
+
+     <Button
+         android:id="@+id/button5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/textView2"
+         android:layout_marginLeft="51dp"
+         android:layout_toRightOf="@+id/textView2"
+         android:text="Details" />
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:layout_toRightOf="@+id/datePicker1"
+         android:src="@drawable/logo_text" />
+
+     <DatePicker
+         android:id="@+id/datePicker1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/imageView1"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="62dp" />
+
+</RelativeLayout>
